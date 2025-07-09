@@ -1,12 +1,38 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+
+interface Activity {
+  id: number;
+  title: string;
+  subtitle?: string;
+  description: string;
+  category: string;
+  steps?: string[];
+}
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'CEF_proyect';
+  activities: Activity[] = [
+    {
+      id: 1,
+      title: 'PLANIFICACIÓN DEL VERANO',
+      subtitle: 'Ideas y consejos',
+      description: 'Lorem ipsum dolor sit amet...',
+      category: 'planning'
+    },
+    {
+      id: 2,
+      title: 'EXCURSIONES Y CAMINATAS',
+      description: 'Lorem ipsum dolor sit amet...',
+      category: 'outdoor',
+      steps: ['Paso 1', 'Paso 2', 'Paso 3']
+    },
+  ];
+
+  toggleDetails(activity: Activity) {
+    console.log('Mostrando detalles de:', activity.title);
+  }
 }
