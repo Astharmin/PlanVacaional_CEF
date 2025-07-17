@@ -1,7 +1,5 @@
 # 🚀 Plan Nacional de Programación y Cursos - Landing Page
 
-![Preview de la Landing Page](https://via.placeholder.com/800x400.png?text=Preview+Landing+Page)
-
 Landing page moderna y responsive para promocionar el Plan Nacional de los cursos Impartidos del intituto CEF, diseñada con HTML5, CSS3 y JavaScript.
 
 ## ✨ Características Principales
