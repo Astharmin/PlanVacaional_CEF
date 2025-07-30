@@ -21,12 +21,41 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, var(--rojo), var(--amarillo));
+    background: linear-gradient(135deg, var(--rojo), #FF7B25, var(--amarillo));
     color: white;
     text-align: center;
     padding: 2rem 1rem;
     margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
 }
+
+.logo-bg{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.logo-dif {
+    opacity: 0.15;
+    max-width: 60%;
+    height: auto;
+    filter: brightness(1.2);
+    mix-blend-mode: screen;
+}
+
+header h1, header p {
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 
 h1 {
     font-size: 3rem;
