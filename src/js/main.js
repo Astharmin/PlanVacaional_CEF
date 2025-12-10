@@ -2,7 +2,7 @@
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        
+
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('header');
     header.style.opacity = 0;
     header.style.transition = 'opacity 1s ease';
-    
+
     setTimeout(() => {
         header.style.opacity = 1;
     }, 100);
