@@ -299,6 +299,23 @@ h3 {
     color: white;
 }
 
+/* Botón cerrar dentro del sidebar */
+.close-sidebar {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: transparent;
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.35rem 0.45rem;
+    cursor: pointer;
+    color: var(--azul-oscuro);
+}
+
+[data-theme="dark"] .close-sidebar {
+    color: var(--azul-oscuro);
+}
+
 /* Cuando el sidebar está activo, empuja el contenido (desktop) */
 .sidebar + #mainContent.sidebar-active,
 .sidebar.active + #mainContent.sidebar-active {

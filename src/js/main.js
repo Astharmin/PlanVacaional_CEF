@@ -62,6 +62,14 @@ document.addEventListener('DOMContentLoaded', () => {
             mainContent.classList.toggle('sidebar-active');
         });
     }
+    // Botón de cierre dentro del sidebar
+    const closeSidebarBtn = document.getElementById('closeSidebarBtn');
+    if (closeSidebarBtn && sidebar && mainContent) {
+        closeSidebarBtn.addEventListener('click', function() {
+            sidebar.classList.remove('active');
+            mainContent.classList.remove('sidebar-active');
+        });
+    }
 
     // Menu items -> resaltar y hacer scroll
     const menuItems = document.querySelectorAll('.menu-item');
