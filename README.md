@@ -124,7 +124,7 @@ plan-vacacional-programacion/
 
 ## 📝 Roadmap Futuro
 
-- [ ] ✨ Agregar modo oscuro/claro
+- [x] ✨ Agregar modo oscuro/claro
 - [ ] 📊 Integrar analytics
 - [ ] 🌍 Soporte multiidioma
 - [ ] 📱 PWA (Progressive Web App)

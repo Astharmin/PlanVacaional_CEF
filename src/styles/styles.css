@@ -7,6 +7,16 @@
     --azul-oscuro: #1d3557;
 }
 
+/* Tema oscuro: aplica cuando `data-theme="dark"` en <html> */
+[data-theme="dark"] {
+    --rojo: #ff7b7b;
+    --amarillo: #ffd166;
+    --blanco: #0b1220; /* fondo principal oscuro */
+    --azul-claro: #0f1724;
+    --azul: #7aa2c7;
+    --azul-oscuro: #e6eef6;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +28,11 @@ body {
     background-color: var(--blanco);
     color: #333;
     line-height: 1.6;
+}
+
+/* Transición suave al cambiar tema */
+html {
+    transition: background-color 250ms ease, color 250ms ease;
 }
 
 header {
@@ -54,6 +69,27 @@ header h1, header p {
     position: relative;
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Botón alternador de tema */
+.theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2;
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: white;
+    padding: 0.5rem 0.65rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    backdrop-filter: blur(4px);
+}
+
+[data-theme="dark"] .theme-toggle {
+    background: rgba(0,0,0,0.35);
+    color: #fff;
 }
 
 
