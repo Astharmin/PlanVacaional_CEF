@@ -53,7 +53,6 @@ Este proyecto consiste en una **landing page educativa** desarrollada como parte
 
 ```
 plan-vacacional-programacion/
-├── 📄 index.html              # Página principal
 ├── 📁 src/
 │   ├── 📁 css/
 │   │   ├── style.css          # Estilos principales
@@ -67,6 +66,7 @@ plan-vacacional-programacion/
 │   │   ├── 📁 icons/          # Iconos y SVG
 │   │   └── 📁 screenshots/    # Capturas del proyecto
 │   └── 📁 fonts/              # Fuentes personalizadas
+├── 📄 index.html              # Página principal
 └── 📄 README.md              # Este archivo
 ```
 
