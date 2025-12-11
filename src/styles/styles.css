@@ -165,7 +165,8 @@ h3 {
 }
 
 .feature-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-12px);
+    box-shadow: 0 18px 40px rgba(10,20,40,0.15);
 }
 
 .feature-card h3 {
@@ -239,6 +240,83 @@ h3 {
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.5s ease;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 40px rgba(10,20,40,0.12);
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background: rgba(255,255,255,0.97);
+    box-shadow: 2px 0 12px rgba(0,0,0,0.08);
+    transform: translateX(-110%);
+    transition: transform 300ms ease;
+    z-index: 999;
+    padding-top: 4rem;
+}
+
+.sidebar.active {
+    transform: translateX(0);
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.sidebar .menu-item {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    color: var(--azul-oscuro);
+    margin-bottom: 0.35rem;
+}
+
+.sidebar .menu-item.active,
+.sidebar .menu-item:hover {
+    background: var(--amarillo);
+    color: var(--rojo);
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1001;
+    background: rgba(255,255,255,0.15);
+    border: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* Cuando el sidebar está activo, empuja el contenido (desktop) */
+.sidebar + #mainContent.sidebar-active,
+.sidebar.active + #mainContent.sidebar-active {
+    transform: translateX(250px);
+}
+
+/* Mobile: overlay style */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 80%;
+        max-width: 320px;
+        background: rgba(255,255,255,0.98);
+    }
+
+    .sidebar + #mainContent.sidebar-active,
+    .sidebar.active + #mainContent.sidebar-active {
+        transform: none;
+    }
 }
 
 footer {

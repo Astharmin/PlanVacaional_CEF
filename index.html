@@ -11,12 +11,23 @@
         <div class="logo-bg">
             <img src="src/image/cef-logo.jpeg" alt="CEF Logo" class="logo-dif">
         </div>
+        <button id="toggleBtn" class="toggle-btn" aria-label="Abrir menú" title="Abrir menú">☰</button>
         <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">🌙</button>
         <h1>PLAN VACACIONAL</h1>
         <p>Cursos impartidos por el Centro de Excelencia Formativa para Toda la Familia</p>
     </header>
     
-    <div class="video-wrapper">
+    <!-- Sidebar móvil/desktop -->
+    <nav id="sidebar" class="sidebar" aria-hidden="true">
+        <ul class="menu">
+            <li class="menu-item active" data-section="home">Inicio</li>
+            <li class="menu-item" data-section="cursos">Cursos</li>
+            <li class="menu-item" data-section="testimonials">Testimonios</li>
+            <li class="menu-item" data-section="registro">Contacto</li>
+        </ul>
+    </nav>
+    
+    <div id="home" class="video-wrapper">
         <div class="video-container">
             <video id="welcomeVideo" src="src/video/nombre-video.mp4" controls playsinline preload="metadata" aria-label="Video de bienvenida">
                 Tu navegador no soporta la etiqueta de video. Coloca el archivo en `src/video/nombre-video.mp4`.
@@ -24,7 +35,7 @@
         </div>
     </div>
     
-    <div class="container">
+    <div id="mainContent" class="container">
         
         <section class="hero">
             <h2>¡Aprende habilidades digitales este verano!</h2>
@@ -83,7 +94,7 @@
             </div>
         </section>
         
-        <section class="testimonials">
+        <section id="testimonials" class="testimonials">
             <h2>TESTIMONIOS</h2>
             <div class="testimonial-grid">
                 <div class="testimonial">
