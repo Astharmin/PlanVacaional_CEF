@@ -48,11 +48,11 @@ document.querySelectorAll('.feature-card, .testimonial').forEach(card => {
 
 // Opcional: Efecto de carga inicial
 document.addEventListener('DOMContentLoaded', () => {
-    // Inicializar tema y botón
+
     initTheme();
     const themeBtn = document.getElementById('themeToggle');
     if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
-    // Inicializar sidebar y navegación
+    
     const toggleBtn = document.getElementById('toggleBtn');
     const sidebar = document.getElementById('sidebar');
     const mainContent = document.getElementById('mainContent');
