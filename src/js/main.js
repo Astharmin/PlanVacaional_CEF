@@ -9,8 +9,7 @@ function applyTheme(theme) {
 
 function initTheme() {
     const saved = localStorage.getItem(THEME_KEY);
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const theme = saved || (prefersDark ? 'dark' : 'light');
+    const theme = saved || 'light';
     applyTheme(theme);
 }
 
