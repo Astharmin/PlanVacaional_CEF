@@ -155,6 +155,40 @@ h3 {
     margin: 3rem 0;
 }
 
+/* Estilos para el contenedor de video de bienvenida */
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: transparent;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 1000px;
+    background: rgba(255,255,255,0.0); /* totalmente transparente */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: transparent;
+}
+
+.video-note {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
