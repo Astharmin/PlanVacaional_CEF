@@ -9,8 +9,8 @@
 
 **Landing page moderna y responsive** para promocionar el Plan Nacional de los cursos impartidos del instituto CEF
 
-[![Live Demo](https://img.shields.io/badge/🚀_Ver_Demo_En_Vivo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://tu-url.vercel.app)
-[![Reportar Bug](https://img.shields.io/badge/🐛_Reportar_Bug-red?style=for-the-badge)](https://github.com/tu-usuario/tu-repo/issues)
+[![Live Demo](https://img.shields.io/badge/🚀_Ver_Demo_En_Vivo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://plan-vacaional-cef.vercel.app)
+[![Reportar Bug](https://img.shields.io/badge/🐛_Reportar_Bug-red?style=for-the-badge)](https://github.com/tu-usuario/Astharmin/issues)
 
 </div>
 
@@ -53,22 +53,20 @@ Este proyecto consiste en una **landing page educativa** desarrollada como parte
 
 ```
 plan-vacacional-programacion/
-├── 📁 index.html              # Página principal
-├── 📁 assets/
+├── 📄 index.html              # Página principal
+├── 📁 src/
 │   ├── 📁 css/
 │   │   ├── style.css          # Estilos principales
-│   │   ├── responsive.css     # Media queries
 │   │   └── animations.css     # Animaciones personalizadas
 │   ├── 📁 js/
 │   │   ├── main.js            # Lógica principal
 │   │   ├── animations.js      # Efectos interactivos
 │   │   └── form-validation.js # Validación de formularios
-│   ├── 📁 images/
+│   ├── 📁 image/
 │   │   ├── 📁 heroes/         # Imágenes principales
 │   │   ├── 📁 icons/          # Iconos y SVG
 │   │   └── 📁 screenshots/    # Capturas del proyecto
 │   └── 📁 fonts/              # Fuentes personalizadas
-├── 📁 docs/                   # Documentación adicional
 └── 📄 README.md              # Este archivo
 ```
 
