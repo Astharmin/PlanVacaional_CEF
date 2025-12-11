@@ -10,7 +10,7 @@
 **Landing page moderna y responsive** para promocionar el Plan Nacional de los cursos impartidos del instituto CEF
 
 [![Live Demo](https://img.shields.io/badge/🚀_Ver_Demo_En_Vivo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://plan-vacaional-cef.vercel.app)
-[![Reportar Bug](https://img.shields.io/badge/🐛_Reportar_Bug-red?style=for-the-badge)](https://github.com/tu-usuario/Astharmin/issues)
+[![Reportar Bug](https://img.shields.io/badge/🐛_Reportar_Bug-red?style=for-the-badge)](https://github.com/Astharmin/PlanVacaional_CEF/issues)
 
 </div>
 
