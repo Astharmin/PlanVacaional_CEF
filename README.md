@@ -1,4 +1,4 @@
-# 🚀 Plan Nacional de Programación y Cursos - Landing Page
+# 🚀 Plan Vacacional de Programación y Cursos - Landing Page
 
 <div align="center">
 
