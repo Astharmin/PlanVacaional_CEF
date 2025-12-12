@@ -7,7 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-**Landing page moderna y responsive** para promocionar el Plan Nacional de los cursos impartidos del instituto CEF
+**Landing page moderna y responsive** para promocionar el Plan vacacional de los cursos impartidos del instituto CEF
 
 [![Live Demo](https://img.shields.io/badge/🚀_Ver_Demo_En_Vivo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://plan-vacaional-cef.vercel.app)
 [![Reportar Bug](https://img.shields.io/badge/🐛_Reportar_Bug-red?style=for-the-badge)](https://github.com/Astharmin/PlanVacaional_CEF/issues)
